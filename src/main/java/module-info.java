@@ -3,6 +3,7 @@ module com.example.javafxmysqltemplate {
     requires javafx.fxml;
     requires java.sql;
     requires mysql.connector.j;
+    requires org.bouncycastle.provider;
 
 
     opens com.example.javafxmysqltemplate to javafx.fxml;

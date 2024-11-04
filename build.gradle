@@ -37,6 +37,9 @@ javafx {
 dependencies {
     implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.0.0'
 
+    implementation group: 'org.bouncycastle',           name: 'bcprov-jdk18on',         version: '1.79'
+    implementation group: 'org.bouncycastle',           name: 'bcpg-jdk18on',           version: '1.79'
+
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
